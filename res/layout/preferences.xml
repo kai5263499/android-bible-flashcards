@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="18sp" android:text="Card text size: 25" android:layout_margin="5sp" android:id="@+id/TextSizeTv"></TextView>
+
+	<SeekBar android:layout_height="wrap_content" android:max="80"
+		android:layout_width="fill_parent" android:id="@+id/TextSizeSb" android:layout_margin="5sp" android:progress="30"></SeekBar>
+
+	<CheckBox android:id="@+id/HideKnownCardsChkBx" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="18sp" android:layout_margin="5sp" android:text="Hide learned cards"></CheckBox>
+	
+	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:id="@+id/EnableNotificationCbx" android:textSize="18sp"
+		android:layout_margin="5sp" android:text="Enable quizzing: 1h"></CheckBox>
+
+	<SeekBar android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/QuizIntervalSb"
+		android:max="1440" android:progress="60" android:padding="5sp"></SeekBar>
+		
+<Button android:layout_height="wrap_content" android:id="@+id/ClearLearnedBtn" android:text="Mark all as unlearned" android:layout_width="fill_parent" android:enabled="false"></Button>
+</LinearLayout>

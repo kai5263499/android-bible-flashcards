@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/parchment">
+	<ProgressBar android:layout_height="wrap_content"
+		android:id="@+id/loading_progressbar" android:layout_centerInParent="true"
+		android:paddingBottom="10px" android:layout_width="wrap_content"
+		android:progress="0" android:max="100"
+		android:layout_alignParentBottom="true" android:layout_marginBottom="50px"></ProgressBar>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textColor="#333333" android:id="@+id/greek"
+		android:layout_alignParentTop="true" android:layout_centerInParent="true"
+		android:textSize="30sp" android:layout_marginTop="70sp" android:text="Bible Flashcards"></TextView>
+	<TextView android:id="@+id/TextView01" android:layout_below="@+id/greek"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_centerInParent="true" android:textColor="#333333"
+		android:textSize="20sp" android:text="memoization made easy"></TextView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_centerInParent="true"
+		android:id="@+id/loading_text" android:text="@+id/loading"
+		android:textColor="#333333"
+		android:textSize="15sp" android:layout_alignParentBottom="true" android:layout_marginBottom="40px"></TextView>
+</RelativeLayout>

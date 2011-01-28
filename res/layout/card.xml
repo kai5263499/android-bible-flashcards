@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:background="@drawable/parchment">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/lesson_name"
+		android:text="Lesson name" android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true" android:textSize="12sp"
+		android:textColor="#333333" android:textStyle="bold"
+		android:layout_marginRight="10sp" android:layout_marginTop="10sp"></TextView>
+	<TextView android:text="10 learned" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/learnedcount"
+		android:textStyle="bold" android:textSize="12sp" android:textColor="#333333"
+		android:layout_below="@id/lesson_name" android:layout_alignParentRight="true" android:layout_marginRight="10sp"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Lessonset Name"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:textSize="12sp" android:id="@+id/lessonset_name"
+		android:textColor="#333333" android:textStyle="bold"
+		android:layout_marginLeft="10sp" android:layout_marginTop="10sp"></TextView>
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/word" android:layout_width="fill_parent"
+		android:gravity="center_vertical|center_horizontal" android:text="ῥομφαία"
+		android:layout_height="wrap_content" android:layout_centerInParent="true"
+		android:textColor="#333333" android:textSize="30sp" />
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_alignParentTop="true"
+		android:layout_centerInParent="true" android:id="@+id/cardcount"
+		android:text="Card 1/100" android:textSize="12sp" android:textColor="#333333"
+		android:textStyle="bold" android:layout_marginTop="10sp"></TextView>
+	<TextView android:text="learned" android:layout_below="@id/cardcount"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:id="@+id/learned" android:textStyle="bold" android:textSize="12sp"
+		android:textColor="#333333" android:layout_centerInParent="true"></TextView>
+
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_marginBottom="2sp" android:clickable="true"
+		android:id="@+id/ShuffleCardBtn" android:src="@drawable/shuffle"
+		android:layout_centerInParent="true"></ImageButton>
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_marginBottom="2sp" android:clickable="true"
+		android:id="@+id/CancelCardBtn" android:layout_toRightOf="@+id/ShuffleCardBtn"
+		android:src="@drawable/cancel"></ImageButton>
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_marginBottom="2sp" android:clickable="true"
+		android:src="@drawable/check" android:id="@+id/CheckCardBtn"
+		android:layout_toLeftOf="@+id/ShuffleCardBtn"></ImageButton>
+
+	
+
+</RelativeLayout>
