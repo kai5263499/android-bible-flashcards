@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/lessonsetOpt" android:title="Choose lesson set" android:icon="@drawable/small_tiles" />
+	<item android:id="@+id/lessonOpt" android:title="Choose lesson" android:icon="@drawable/large_tiles" />
+	<item android:id="@+id/prefsOpt" android:title="Preferences" android:icon="@drawable/equalizer" />
+</menu>
